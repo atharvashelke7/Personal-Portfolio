@@ -5,7 +5,6 @@ import { SiFirebase } from "react-icons/si";
 import aii from "../assets/aii.png";
 import { SiFramer } from "react-icons/si";
 
-
 const projectsData = [
   {
     id: 1,
@@ -13,7 +12,7 @@ const projectsData = [
     projectSubtitle: "YouTube",
     description:
       "A web application inspired by YouTube, developed using React.js, Redux Toolkit, and Tailwind CSS. It features a responsive UI, video listings, and a functional search bar, allowing users to browse, view, and interact with videos seamlessly. The project demonstrates efficient state management, styling, and user experience similar to the original platform.",
-    imageUrl: "https://metricool.com/wp-content/uploads/QUE-ES-YOTUBE.webp",
+    imageUrl: "https://i.pinimg.com/1200x/48/20/99/482099fdddab26d1220993104ce09b13.jpg",
     projectUrl: "https://youtube-project-ruddy.vercel.app/",
     techIcons: [
       { component: RiReactjsLine, color: "text-cyan-400" },
@@ -28,7 +27,7 @@ const projectsData = [
     description:
       "A Netflix clone integrated with GPT for personalized recommendations and Firebase for authentication.",
     imageUrl:
-      "https://cdn.houstonpublicmedia.org/wp-content/uploads/2023/06/26134528/Netflix-login-screen-capture-1000x496.jpg",
+      "https://i.pinimg.com/1200x/63/5f/12/635f124734285d243ff884749044dd5a.jpg",
     projectUrl: "https://netflix-gpt-project.vercel.app/",
     techIcons: [
       { component: RiReactjsLine, color: "text-cyan-400" },
