@@ -1,8 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Body from "./components/Body";
+import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <>
       {/* Smooth Scroll Container */}

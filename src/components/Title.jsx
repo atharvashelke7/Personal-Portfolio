@@ -18,12 +18,16 @@ const Title = ({ onClickHire }) => {
 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: "easeOut" },
+    },
   };
 
   return (
     <motion.div
-      className="text-white p-8 md:p-24 font-['Helvetica']"
+      className="text-white p-8 md:p-24 font-['Helvetica'] pt-16 sm:pt-8" // Added top padding for mobile
       initial="hidden"
       animate="visible"
       variants={containerVariants}
